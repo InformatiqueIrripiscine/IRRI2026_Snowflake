@@ -192,7 +192,7 @@ def main(session):
                     '{STAGE}/' || source_file,
                     target_file
                 FROM AREA_SOPHIE.PUBLIC.COPIES_A_FAIRE
-            )
+            )c'est 
     """).collect()
 
     return f'Analyse terminée: {nb_new_zips} nouveaux ZIPs, {nb_docs} documents analysés, {nb_copies} copies créées dans le dossier {today_folder}'
