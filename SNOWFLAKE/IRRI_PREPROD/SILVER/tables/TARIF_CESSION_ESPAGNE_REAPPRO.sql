@@ -93,3 +93,4 @@ WHERE tarif.code_article NOT IN (SELECT code_article FROM tarif_conditionnement_
         ) a
     ORDER BY code_article, quantite DESC;
 
+
